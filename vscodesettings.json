@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "prettier.singleQuote": true,
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.cursorWidth": 5,
+    "editor.cursorBlinking": "solid",
+    "files.trimTrailingWhitespace": true,
+  "editor.cursorStyle": "line",
+  "editor.renderWhitespace": "all",
+  "vscode_custom_css.imports": [
+    "file:///Users/fidalgo/.vscodestyles.css"
+  ],
+}
