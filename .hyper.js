@@ -15,7 +15,7 @@ module.exports = {
     fontFamily: '"Inconsolata for Powerline", "Operator Mono", monospace',
 
     // default font weight: 'normal' or 'bold'
-    fontWeight: 'normal',
+    fontWeight: 'bold',
 
     // font weight for bold characters: 'normal' or 'bold'
     fontWeightBold: 'bold',
