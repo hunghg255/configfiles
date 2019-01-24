@@ -16,14 +16,22 @@
   "editor.wordWrap": "on",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
-  "editor.rulers": [80, 100],
+  "editor.rulers": [
+    80,
+    100
+  ],
   "editor.minimap.showSlider": "always",
   "editor.snippetSuggestions": "top",
   "files.trimTrailingWhitespace": true,
   "workbench.editor.tabSizing": "shrink",
-  "vscode_custom_css.imports": ["file:///Users/fidalgo/.vscodestyles.css"],
+  "vscode_custom_css.imports": [
+    "file:///Users/fidalgo/.vscodestyles.css"
+  ],
   "prettier.trailingComma": "es5",
   "prettier.singleQuote": true,
+  "prettier.disableLanguages": [
+    "js"
+  ],
   "explorer.confirmDelete": false,
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
@@ -51,5 +59,11 @@
   "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": true,
   "editor.formatOnPaste": true,
-  "editor.parameterHints.enabled": false
+  "editor.parameterHints.enabled": false,
+  "window.zoomLevel": 0,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
 }
