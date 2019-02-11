@@ -1,37 +1,28 @@
 {
   "terminal.integrated.fontFamily": "Operator Mono, Inconsolata for Powerline",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "workbench.colorTheme": "Cobalt2",
+  "terminal.integrated.fontSize": 15,
+  "workbench.colorTheme": "One Dark Pro",
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.fontSize": 17,
-  "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.fontWeight": "400",
-  "editor.cursorStyle": "line",
   "editor.renderWhitespace": "all",
   "editor.quickSuggestionsDelay": 500,
   "editor.wordWrap": "on",
-  "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.minimap.showSlider": "always",
   "editor.snippetSuggestions": "top",
   "files.trimTrailingWhitespace": true,
   "workbench.editor.tabSizing": "shrink",
-  "vscode_custom_css.imports": [
-    "file:///Users/fidalgo/.vscodestyles.css"
-  ],
+  //"vscode_custom_css.imports": ["file:///Users/fidalgo/.vscodestyles.css"],
   "prettier.trailingComma": "es5",
   "prettier.singleQuote": true,
-  "prettier.disableLanguages": [
-    "js"
-  ],
+  "prettier.disableLanguages": ["js"],
   "explorer.confirmDelete": false,
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
@@ -56,14 +47,12 @@
   "editor.matchBrackets": true,
   "window.openFilesInNewWindow": "off",
   "workbench.editor.enablePreview": true,
-  "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": true,
   "editor.formatOnPaste": true,
-  "editor.parameterHints.enabled": false,
   "window.zoomLevel": 0,
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
+  "editor.lineHeight": 25,
+  "editor.tabCompletion": "on",
+  "editor.colorDecorators": false
 }
