@@ -4,6 +4,7 @@
 
 module.exports = {
   config: {
+    updateChannel: 'canary',
     fontSize: 17,
     fontFamily: '"Operator Mono", "Inconsolata for Powerline", monospace',
     cursorShape: 'BLOCK',
@@ -12,5 +13,5 @@ module.exports = {
     shell: '/bin/zsh',
   },
 
-  plugins: ['hyperterm-cobalt2-theme'],
+  plugins: ['hyper-material-theme'],
 };
