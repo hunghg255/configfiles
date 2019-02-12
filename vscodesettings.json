@@ -50,9 +50,8 @@
   "editor.useTabStops": true,
   "editor.formatOnPaste": true,
   "window.zoomLevel": 0,
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
   "editor.lineHeight": 25,
   "editor.tabCompletion": "on",
-  "editor.colorDecorators": false
+  "editor.colorDecorators": false,
+  "eslint.autoFixOnSave": true
 }
