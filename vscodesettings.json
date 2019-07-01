@@ -3,11 +3,8 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontSize": 15,
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.tabSize": 2,
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
-  "editor.quickSuggestionsDelay": 500,
-  "editor.quickSuggestions": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.rulers": [80],
@@ -53,4 +50,14 @@
   "workbench.colorTheme": "One Dark Pro",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "material-icon-theme",
+  "gitlens.codeLens.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "workbench.tree.indent": 12,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.parameterHints.enabled": false
 }
