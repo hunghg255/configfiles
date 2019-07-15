@@ -66,8 +66,8 @@ ZSH_THEME=""
 plugins=(
   git
   extract
-  npm
   zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,4 +104,3 @@ prompt pure
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zs="code ~/.zshrc"
-
