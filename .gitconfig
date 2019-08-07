@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+	email = pedrofidalgo7@gmail.com
+  name = Fidalgo
+# Please adapt and uncomment the following lines:
+#	name = Fidalgo
+#	email = pedrofidalgo7@gmail.com
+[credential]
+	helper = store
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait "
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
+[core]
+	editor = code --wait
