@@ -9,11 +9,9 @@
   "editor.minimap.enabled": false,
   "editor.rulers": [80],
   "files.trimTrailingWhitespace": true,
-  "prettier.trailingComma": "es5",
   "prettier.singleQuote": true,
-  "prettier.disableLanguages": ["js"],
+  // "prettier.disableLanguages": ["js"],
   "explorer.confirmDelete": false,
-  "html.format.preserveNewLines": true,
   "extensions.ignoreRecommendations": false,
   "files.exclude": {
     "**/.git": true,
@@ -33,16 +31,20 @@
   "editor.matchBrackets": true,
   "workbench.editor.enablePreview": true,
   "editor.useTabStops": true,
-  "editor.formatOnPaste": true,
   "editor.tabCompletion": "on",
   "editor.colorDecorators": false,
   "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.fontSize": 17,
   "editor.lineHeight": 30,
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
   "workbench.editor.tabSizing": "shrink",
-  "html.format.enable": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.blame.heatmap.enabled": false,
@@ -59,5 +61,8 @@
   "workbench.tree.indent": 12,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.parameterHints.enabled": false,
-  "workbench.colorTheme": "City Lights"
+  "workbench.colorTheme": "City Lights",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }
