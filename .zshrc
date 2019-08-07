@@ -75,6 +75,22 @@ source $ZSH/oh-my-zsh.sh
 autoload -U promptinit; promptinit
 prompt pure
 
+
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+
+autoload -U add-zsh-hook
+load-nvmrc() {
+  if [[ -f .nvmrc && -r .nvmrc ]]; then
+    nvm use
+  elif [[ $(nvm version) != $(nvm version default)  ]]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
