@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.fontFamily": "Operator Mono, Inconsolata for Powerline",
+  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontSize": 15,
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -10,7 +10,6 @@
   "editor.rulers": [80],
   "files.trimTrailingWhitespace": true,
   "prettier.singleQuote": true,
-  // "prettier.disableLanguages": ["js"],
   "explorer.confirmDelete": false,
   "extensions.ignoreRecommendations": false,
   "files.exclude": {
@@ -22,8 +21,6 @@
     "**/.next": true
   },
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  //Auto save and format
-  "editor.formatOnSave": true,
   "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
   "editor.detectIndentation": false,
@@ -33,7 +30,6 @@
   "editor.useTabStops": true,
   "editor.tabCompletion": "on",
   "editor.colorDecorators": false,
-  "eslint.autoFixOnSave": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -54,15 +50,21 @@
   "window.zoomLevel": 0,
   "workbench.iconTheme": "city-lights-icons-vsc-light",
   "gitlens.codeLens.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.tabSize": 2,
   "workbench.tree.indent": 12,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.parameterHints.enabled": false,
   "workbench.colorTheme": "City Lights",
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "files.autoSave": "onFocusChange",
+  "eslint.alwaysShowStatus": true,
   "css.validate": false,
   "less.validate": false,
-  "scss.validate": false
+  "scss.validate": false,
+  "eslint.autoFixOnSave": false,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true
 }
