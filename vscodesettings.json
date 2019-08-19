@@ -58,13 +58,11 @@
   "files.associations": {
     "*.js": "javascript"
   },
-  "files.autoSave": "onFocusChange",
-  "eslint.alwaysShowStatus": true,
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "eslint.autoFixOnSave": false,
   "editor.formatOnSave": true,
   "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
   "prettier.stylelintIntegration": true
 }
