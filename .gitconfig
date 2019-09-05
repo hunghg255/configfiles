@@ -1,10 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	email = pedrofidalgo7@gmail.com
-  name = Fidalgo
-# Please adapt and uncomment the following lines:
-#	name = Fidalgo
-#	email = pedrofidalgo7@gmail.com
+	name = Fidalgo
 [credential]
 	helper = store
 [merge]
@@ -17,3 +14,12 @@
 	cmd = "code --wait --diff  "
 [core]
 	editor = code --wait
+	excludesfile = /Users/fidalgo/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/fidalgo/.stCommitMsg
