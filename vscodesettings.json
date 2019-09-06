@@ -39,7 +39,16 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.wordWrap": "on",
   "editor.colorDecorators": false,
   "editor.suggestSelection": "first",
+  "sync.gist": "9108b85452251bf9fef588beea6f342c",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
 }
