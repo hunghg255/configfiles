@@ -1,9 +1,6 @@
-# This is Git's per-user configuration file.
 [user]
+	name = Pedro Fidalgo
 	email = pedrofidalgo7@gmail.com
-	name = Fidalgo
-[credential]
-	helper = store
 [merge]
 	tool = vscode
 [mergetool "vscode"]
@@ -12,14 +9,3 @@
 	tool = vscode
 [difftool "vscode"]
 	cmd = "code --wait --diff  "
-[core]
-	editor = code --wait
-	excludesfile = /Users/fidalgo/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[commit]
-	template = /Users/fidalgo/.stCommitMsg
