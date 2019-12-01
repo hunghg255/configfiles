@@ -7,48 +7,58 @@
   "editor.rulers": [
     80
   ],
-  "prettier.singleQuote": true,
   "extensions.ignoreRecommendations": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
   "editor.fontSize": 18,
   "editor.lineHeight": 35,
   "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
   "gitlens.blame.heatmap.enabled": false,
   "gitlens.blame.highlight.enabled": false,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.iconTheme": "material-icon-theme",
   "gitlens.codeLens.enabled": false,
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.parameterHints.enabled": false,
-  "workbench.colorTheme": "Gatito Theme",
-  "files.associations": {
-    "*.js": "javascript"
-  },
-  "editor.formatOnSave": true,
+  "workbench.colorTheme": "City Lights",
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "solid",
-  "prettier.requireConfig": true,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.wordWrap": "on",
   "editor.colorDecorators": false,
-  "editor.suggestSelection": "first",
   "sync.gist": "9108b85452251bf9fef588beea6f342c",
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
+  "editor.suggestSelection": "first",
+  "zenMode.centerLayout": false,
+  "editor.renderWhitespace": "boundary",
+  // RUN ESLINT AND FIX/FORMAT ON SAVE
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  // ENABLE FORMAT ON SAVE WITH PRETTIER FOR EVERYTHING OTHER THAN JS, JS REACT, TS and TS REACT
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+  },
 }
