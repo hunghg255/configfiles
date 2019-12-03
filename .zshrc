@@ -5,7 +5,7 @@
 export ZSH="/Users/fidalgo/.oh-my-zsh"
 
 
-ZSH_THEME="spaceship"
+ZSH_THEME="spaceship" 
 
 plugins=(
   git
