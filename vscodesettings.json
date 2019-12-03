@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontFamily": "Dank Mono, Inconsolata for Powerline",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontSize": 16,
   "editor.fontFamily": "Dank Mono, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -18,7 +18,7 @@
   "gitlens.codeLens.enabled": false,
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "City Lights",
+  "workbench.colorTheme": "Oceanic Plus",
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "solid",
   "editor.wordWrap": "on",
@@ -61,4 +61,5 @@
   "[typescriptreact]": {
     "editor.formatOnSave": false,
   },
+  "workbench.iconTheme": "material-icon-theme"
 }
