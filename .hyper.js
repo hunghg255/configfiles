@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 20,
 
     // font family with optional fallbacks
-    fontFamily: '"Inconsolata for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Dank Mono", "Inconsolata for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -21,7 +21,7 @@ module.exports = {
     fontWeightBold: 'bold',
 
     // line height as a relative unit
-    lineHeight: 1.3,
+    lineHeight: 1.5,
 
     // letter spacing as a relative unit
     letterSpacing: 0,
@@ -146,7 +146,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-snazzy"],
+  plugins: ["hyper-oceanic-next"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
