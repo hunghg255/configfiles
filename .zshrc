@@ -37,3 +37,4 @@ load-nvmrc
 
 # ALIAS
 alias zshconfig="code ~/.zshrc"
+alias hyperconfig="code ~/.hyper.js"
