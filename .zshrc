@@ -5,7 +5,7 @@
 export ZSH="/Users/fidalgo/.oh-my-zsh"
 
 
-ZSH_THEME=""
+ZSH_THEME="spaceship"
 
 plugins=(
   git
@@ -16,11 +16,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# PURE PROMPT
-fpath+=("$HOME/.zsh/pure")
-autoload -U promptinit; promptinit
-prompt pure
 
 # NVM Stuff
 export NVM_DIR="$HOME/.nvm"
