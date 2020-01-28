@@ -1,7 +1,6 @@
 {
   "terminal.integrated.fontFamily": "Dank Mono, Inconsolata for Powerline",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.fontSize": 16,
   "editor.fontFamily": "Dank Mono, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.minimap.enabled": false,
   "editor.rulers": [
@@ -9,57 +8,48 @@
   ],
   "extensions.ignoreRecommendations": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.lineHeight": 35,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.blame.heatmap.enabled": false,
-  "gitlens.blame.highlight.enabled": false,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "gitlens.codeLens.enabled": false,
   "editor.tabSize": 2,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Oceanic Plus",
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "solid",
   "editor.wordWrap": "on",
-  "editor.colorDecorators": false,
   "sync.gist": "9108b85452251bf9fef588beea6f342c",
   "editor.suggestSelection": "first",
   "zenMode.centerLayout": false,
   "editor.renderWhitespace": "boundary",
-  // RUN ESLINT AND FIX/FORMAT ON SAVE
-  "eslint.autoFixOnSave": true,
   "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    },
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
   ],
   // ENABLE FORMAT ON SAVE WITH PRETTIER FOR EVERYTHING OTHER THAN JS, JS REACT, TS and TS REACT
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false,
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  // },
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": false,
+  // },
+  // "[typescript]": {
+  //   "editor.formatOnSave": false,
+  // },
+  // "[typescriptreact]": {
+  //   "editor.formatOnSave": false,
+  // },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // "source.fixAll.stylelint": true
   },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false,
-  },
-  "[typescript]": {
-    "editor.formatOnSave": false,
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": false,
-  },
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.rendererType": "experimentalWebgl",
+  "editor.colorDecorators": false,
+  "workbench.editor.tabSizing": "shrink",
+  "terminal.integrated.fontSize": 18,
+  "window.zoomLevel": 0,
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Oceanic Next"
 }
