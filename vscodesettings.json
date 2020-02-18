@@ -1,5 +1,4 @@
 {
-  "terminal.integrated.fontFamily": "Dank Mono, Inconsolata for Powerline",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.fontFamily": "Dank Mono, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.minimap.enabled": false,
@@ -8,8 +7,8 @@
   ],
   "extensions.ignoreRecommendations": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "editor.fontSize": 20,
-  "editor.lineHeight": 35,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 30,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
@@ -47,9 +46,10 @@
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.rendererType": "experimentalWebgl",
   "editor.colorDecorators": false,
-  "workbench.editor.tabSizing": "shrink",
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 17,
   "window.zoomLevel": 0,
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Oceanic Next"
+  "workbench.colorTheme": "Panda Syntax",
+  "workbench.editor.tabSizing": "shrink",
+  "terminal.integrated.fontFamily": "Inconsolata for Powerline"
 }
