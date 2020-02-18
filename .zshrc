@@ -5,7 +5,7 @@
 export ZSH="/Users/fidalgo/.oh-my-zsh"
 
 
-ZSH_THEME="spaceship" 
+# ZSH_THEME="" 
 
 plugins=(
   git
@@ -35,6 +35,11 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+# .zshrc
+autoload -U promptinit; promptinit
+prompt pure
+
 # ALIAS
 alias zshconfig="code ~/.zshrc"
 alias hyperconfig="code ~/.hyper.js"
+alias zshreload="source ~/.zshrc"
