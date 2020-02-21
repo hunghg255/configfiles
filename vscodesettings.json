@@ -1,6 +1,6 @@
 {
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "editor.fontFamily": "Dank Mono, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Dank Mono, Operator Mono",
   "editor.minimap.enabled": false,
   "editor.rulers": [
     80
@@ -8,7 +8,6 @@
   "extensions.ignoreRecommendations": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "editor.fontSize": 18,
-  "editor.lineHeight": 30,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
@@ -44,12 +43,18 @@
     // "source.fixAll.stylelint": true
   },
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.rendererType": "experimentalWebgl",
+  "terminal.integrated.rendererType": "dom",
   "editor.colorDecorators": false,
-  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontSize": 18,
   "window.zoomLevel": 0,
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Panda Syntax",
   "workbench.editor.tabSizing": "shrink",
-  "terminal.integrated.fontFamily": "Inconsolata for Powerline"
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.lineHeight": 30,
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "workbench.fontAliasing": "auto",
+  "workbench.colorTheme": "CodeSandbox",
 }
